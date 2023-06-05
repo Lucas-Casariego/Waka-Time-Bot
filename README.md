@@ -14,8 +14,8 @@ The bot also sends a periodic message containing the same information as the /to
 
 
 ``` bash 
-git clone https://github.com/your-username/your-project.git
-cd your-project
+git clone https://github.com/Lucas-Casariego/Waka-Time-Bot.git
+cd Waka-Time-Bot
 ```
 2. Create a new file named `.env` in the project directory.
 
