@@ -81,3 +81,5 @@ docker-compose up -d
 ```
 This command starts the bot container in the background using the configuration specified in the `docker-compose.yml` file. Docker Compose will automatically download the telegram-bot image from the container registry.
 
+## License
+This project is licensed under the MIT License. For more details, see the LICENSE file.
