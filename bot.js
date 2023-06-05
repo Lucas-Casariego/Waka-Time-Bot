@@ -49,7 +49,7 @@ const sendPeriodicMessage = async () => {
     const codingTimes = await GetTotalCodingTimeForTodayAsync();
     const message = `Hoy programaste en total: ${codingTimes.totalCodingTime}\nHoy trabajaste: ${codingTimes.arthrosCodingTime} `
     bot.telegram.sendMessage(process.env.USER_ID, message);
-    setTimeout(sendPeriodicMessage , 1000 * 60 * 60 * 1);
+    setTimeout(sendPeriodicMessage , 1000 * 60 * 60 * 2);
   } catch (error) {
     console.error("Ocurrió un error al enviar el mensaje periódico: ", error);
   }
