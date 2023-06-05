@@ -1,0 +1,6 @@
+version: '3'
+services:
+  tel-bot:
+    image: telegram-bot
+    env_file:
+      - .env
