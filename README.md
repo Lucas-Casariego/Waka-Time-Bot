@@ -71,10 +71,7 @@ services:
       - .env
 ```
 
-4. Save and close the `docker-compose.yml` file.
-
-
-5. Start the bot using Docker Compose:
+4. Start the bot using Docker Compose:
 
 ``` bash
 docker-compose up -d
