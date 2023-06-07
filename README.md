@@ -6,7 +6,7 @@ This is a Twitter bot written in JavaScript using the Telegraf library. The bot 
 This command retrieves the total coding time and the specific coding time for the "Arthros.UI.Web" project for the current day. Replace "Arthros.UI.Web" with the name of your work project.
 
 ## Periodic Message
-The bot also sends a periodic message containing the same information as the /today command. The message is sent to the user specified by the USER_ID environment variable. The interval between messages is set to 1 hour.
+The bot also sends a periodic message containing the same information as the /today command. The message is sent to the user specified by the USER_ID environment variable. The interval between messages is set to 2 hour.
 
 ## Option 1: Cloning the Repository
 
