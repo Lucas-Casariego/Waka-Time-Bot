@@ -58,7 +58,7 @@ TELEGRAM_TOKEN=your_telegram_token
 COOKIE_VALUE=your_cookie_value
 USER_ID=your_user_id
 ```
-Replace your_telegram_token, your_cookie_value, and your_user_id with the respective values.
+Replace `your_telegram_token`, `your_cookie_value`, and `your_user_id` with the respective values.
 
 3. Create a docker-compose.yml file in your project directory with the following content:
 
