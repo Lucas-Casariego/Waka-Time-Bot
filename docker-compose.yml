@@ -1,6 +1,6 @@
 version: '3'
 services:
   tel-bot:
-    image: telegram-bot
+    image: lucascasariego/telegram-bot:latest
     env_file:
       - .env
